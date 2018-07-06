@@ -41,7 +41,7 @@ nav {
     display: -webkit-flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     padding: .2em;
     font-family: "Arial", "Helvetica", sans-serif;
     height: 3em;
@@ -61,6 +61,10 @@ nav a:hover {
     color: #3D8C93;
 }
 
+nav a:active {
+    color: #3D8C93;
+}
+
 .navLink {
     padding: 10px;
 }
@@ -72,7 +76,7 @@ nav a:hover {
     background-size: 100% 100%;
     /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
     background-color: #432e25;
-    height: 45em;
+    height: 50em;
 
 }
 
@@ -91,7 +95,7 @@ nav a:hover {
     background-size: 100% 100%;
     /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
     background-color: white;
-    height: 45em;
+    height: 50em;
 }
 
 #portfolio {
@@ -101,5 +105,5 @@ nav a:hover {
     background-size: 100% 100%;
     /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
     background-color: lightgray;
-    height: 45em;
+    height: 50em;
 }
