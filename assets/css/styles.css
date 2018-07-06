@@ -1,3 +1,22 @@
+/*
+Color Codes
+Dark Blue 
+    #1F464D
+    rgba(31, 70, 77, 1)
+Light Blue 
+    #3D8C93
+    rgba(61, 140, 147, 1)
+Tan 
+    #D9D7CA
+    rgba(217, 215, 202, 1)
+Light Brown 
+    #73604F
+    rgba(115, 96, 79, 1)
+Dark Brown 
+    #3B3535
+    rgba(59, 53, 53, 1)
+*/
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -6,8 +25,18 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 nav {
-    background-color: orange;
+    position: fixed;
+    /* Keeps the nav from moving off the screen */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* removes the gap between the bar and the edge of the frame */
+    background-color: rgba(43,43,43,.85);
     display: flex;
     display: -webkit-flex;
     width: 100%;
@@ -15,13 +44,62 @@ nav {
     justify-content: center;
     padding: .2em;
     font-family: "Arial", "Helvetica", sans-serif;
+    height: 3em;
+    
 }
 
 nav a {
     margin: .2em 1em 0px 1em;
-    color: darkcyan;
+    color: #D9D7CA;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: .3em;
 }
 
 nav a:hover {
-    color: white;
+    color: #3D8C93;
+}
+
+.navLink {
+    padding: 10px;
+}
+
+#home {
+    background-image: url(../img/homeBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
+    background-color: #432e25;
+    height: 45em;
+
+}
+
+.name {
+    font-family: 'Londrina Sketch', cursive;
+    /* Font from google.fonts.com */
+}
+
+#about {
+    background: linear-gradient(
+        rgba(31, 70, 77, .6),
+        rgba(31, 70, 77, .6)), 
+        url(../img/aboutBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100% 100%;
+    /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
+    background-color: white;
+    height: 45em;
+}
+
+#portfolio {
+    background-image: url(../img/portfolioBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-size requires both values to make sure it covers corretly, one is width and the other is height */
+    background-color: lightgray;
+    height: 45em;
 }
