@@ -25,6 +25,10 @@ html {
     box-sizing: border-box;
 }
 
+h1 {
+    font-weight: normal;
+}
+
 body {
     margin: 0;
 }
@@ -45,7 +49,7 @@ nav {
     padding: .2em;
     font-family: "Arial", "Helvetica", sans-serif;
     height: 3em;
-    
+    z-index: 1;
 }
 
 nav a {
@@ -80,9 +84,20 @@ nav a:active {
 
 }
 
-.name {
+#name {
     font-family: 'Londrina Sketch', cursive;
     /* Font from google.fonts.com */
+    height: 5em;
+    line-height: 5em;
+    text-align: center;
+    text-shadow: 3px 2px #3D8C93;
+    font-size: 10em;
+    font-style: italic;
+    color: #D9D7CA;
+    transform: skewY(-5deg);
+    margin: auto;
+    white-space: nowrap;
+
 }
 
 #about {
