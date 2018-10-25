@@ -18,11 +18,15 @@ Light Brown
 Dark Brown
     #3B3535
     59 53 53
- */
 
- ::-webkit-scrollbar {display:none;}
+Fonts
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+*/
 
- .background {
+::-webkit-scrollbar {display:none;}
+
+.background {
     height: 100vh;
     width: 100%;
     background-image: url(../../img/portfolioBackground.jpg);
@@ -31,13 +35,33 @@ Dark Brown
     position: fixed;
     z-index: -1;
     
- }
- .pageContent {
+}
+
+.pageContent {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .32);
-  }
+}
 
-  .content {
-      width: 100%;
-  }
+.content {
+    width: 100%;
+}
+
+.sectionTitle {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mike {
+    border: 3px solid #3C8C93;
+    border-radius: 25rem;
+    color: #D9D7CA;
+}
+
+.myBio {
+    color: #D9D7CA;
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
