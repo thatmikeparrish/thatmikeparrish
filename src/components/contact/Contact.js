@@ -5,7 +5,7 @@ export default class Contact extends Component {
         return (
             <React.Fragment>
                     <div className="content d-flex justify-content-center">
-                        <h1>Contact</h1>
+                        <h2 className="sectionTitle">Contact</h2>
                     </div>
             </React.Fragment>
         );

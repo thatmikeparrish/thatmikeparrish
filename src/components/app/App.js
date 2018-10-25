@@ -13,6 +13,7 @@ export default class App extends Component {
     render() {
         return (
             <React.Fragment>
+                <div className="background"></div>
                 <div className="container pageContent">
                     <div className="d-flex justify-content-center">
                         <img src={MainLogo} />

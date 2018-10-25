@@ -5,8 +5,9 @@ export default class Portfolio extends Component {
         return (
             <React.Fragment>
                     <div className="content d-flex justify-content-center">
-                        <h1>Portfolio</h1>
+                        <h2 className="sectionTitle">Portfolio</h2>
                     </div>
+
             </React.Fragment>
         );
     }
