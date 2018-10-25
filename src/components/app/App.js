@@ -7,7 +7,7 @@ import MainLogo from "../../img/branding/logoMikeParrishMix2.png"
 import Bio from "../bio/Bio"
 import Contact from "../contact/Contact"
 import Portfolio from "../portfolio/Portfolio"
-import Testimonials from "../testimonials/Testimonials"
+import Reviews from "../reviews/Reviews"
 
 export default class App extends Component {
     render() {
@@ -16,11 +16,11 @@ export default class App extends Component {
                 <div className="background"></div>
                 <div className="container pageContent">
                     <div className="d-flex justify-content-center">
-                        <img src={MainLogo} />
+                        <img src={MainLogo} alt="Mike Parrish"/>
                     </div>
                     <Bio />
                     <Portfolio />
-                    <Testimonials />
+                    <Reviews />
                     <Contact />
                 </div>
             </React.Fragment>

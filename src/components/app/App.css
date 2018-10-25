@@ -53,9 +53,15 @@ Fonts
 }
 
 .mike {
-    border: 3px solid #3C8C93;
+    border: 4.4px solid #3C8C93;
     border-radius: 25rem;
-    color: #D9D7CA;
+    background-image: url(../../img/branding/mike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 20rem;
+    min-height: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
 }
 
 .myBio {
@@ -64,4 +70,61 @@ Fonts
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     text-align: center;
+}
+
+.resumeLink{
+    color: #3C8C93;
+}
+
+.portfolioEntry {
+    border: 5px solid #3C8C93;
+    border-radius: 2rem;
+    max-height: 15rem;
+    min-height: 15rem;
+    max-width: 15rem;
+    min-width: 15rem;
+    background-color: rgba(0, 0, 0, .4);
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolioEntry:hover {
+    border: 5px solid #3B3535;
+}
+
+.image {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(60, 140, 147, .8);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  border-radius: 1rem;
+}
+
+.portfolioEntry:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: #D9D7CA;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%
 }
