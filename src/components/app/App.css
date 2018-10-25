@@ -128,3 +128,19 @@ Fonts
   text-align: center;
   width: 80%
 }
+
+.name {
+  font-family: 'Yellowtail', cursive;
+}
+
+.name a {
+  color: #D9D7CA;
+}
+
+.name:hover a {
+  color: #D9D7CA;
+}
+
+.info {
+  font-family: 'Roboto Condensed', sans-serif;
+}
