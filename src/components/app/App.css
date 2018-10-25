@@ -99,48 +99,55 @@ Fonts
 }
 
 .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(60, 140, 147, .8);
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-  border-radius: 1rem;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(60, 140, 147, .8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 1rem;
 }
 
 .portfolioEntry:hover .overlay {
-  bottom: 0;
-  height: 100%;
+    bottom: 0;
+    height: 100%;
 }
 
 .text {
-  color: #D9D7CA;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 80%
+    color: #D9D7CA;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
 }
 
 .name {
-  font-family: 'Yellowtail', cursive;
+    font-family: 'Yellowtail', cursive;
 }
 
 .name a {
-  color: #D9D7CA;
+    color: #D9D7CA;
 }
 
 .name:hover a {
-  color: #D9D7CA;
+    color: #D9D7CA;
 }
 
 .info {
-  font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contactLogo {
+    max-height: 4rem;
+    min-height: 4rem;
+    max-width: 4rem;
+    min-width: 4rem;
 }

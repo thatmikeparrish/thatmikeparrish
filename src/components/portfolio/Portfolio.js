@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
                         <img className="image" src={AmyTaylorCountry} alt="Amy Taylor Country"/>
                         <div className="overlay">
                             <div className="text">
-                                <h4 className="name">Amy Taylor Country</h4>
+                                <h4 className="name"><a href="#">Amy Taylor Country</a></h4>
                                 <h6 className="info">Singer Songwriter based out of Nashville</h6>
                             </div>
                         </div>
