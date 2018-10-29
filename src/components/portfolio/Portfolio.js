@@ -6,8 +6,8 @@ import AmyTaylorCountry from "../../img/logos/amytaylorcountry.png"
 export default class Portfolio extends Component {
     render() {
         return (
-            <React.Fragment>
-                <div className="content d-flex justify-content-center">
+            <div className="content">
+                <div className="d-flex justify-content-center">
                     <h2 className="sectionTitle">Portfolio & Projects</h2>
                 </div>
                 <div className="d-flex flex-row flex-wrap justify-content-around">
@@ -30,7 +30,7 @@ export default class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-            </React.Fragment>
+            </div>
         );
     }
 }

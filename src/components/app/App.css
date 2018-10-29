@@ -45,11 +45,13 @@ Fonts
 
 .content {
     width: 100%;
+    margin: 4rem 0;
 }
 
 .sectionTitle {
     color: #D9D7CA;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 0 2rem 0;
 }
 
 .mike {
@@ -150,4 +152,11 @@ Fonts
     min-height: 4rem;
     max-width: 4rem;
     min-width: 4rem;
+}
+
+.LanguageLogo {
+    max-height: 6rem;
+    min-height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
 }
