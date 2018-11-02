@@ -30,15 +30,6 @@ export default class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="portfolioEntry">
-                        <img className="image" src={MP} alt="Mike Parrish"/>
-                        <div className="overlay">
-                            <div className="text">
-                                <h3 className="name"><a href="#top">Mike Parrish</a></h3>
-                                <h6 className="info">My personal portfolio site</h6>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         );
