@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+import ReviewsCarousel from './ReviewsCarousel'
 
-export default class Testimonials extends Component {
+export default class Reviews extends Component {
     render() {
+
         return (
-            <React.Fragment>
-                    <div className="content d-flex justify-content-center">
-                        <h2 className="sectionTitle">Reviews</h2>
-                    </div>
-            </React.Fragment>
+            <div className="content">
+                <div className="d-flex justify-content-center">
+                    <h2 className="sectionTitle">Reviews</h2>
+                </div>
+                <div className="d-flex flex-row flex-wrap justify-content-around">
+                    <ReviewsCarousel />
+                </div>
+            </div>
         );
     }
 }

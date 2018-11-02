@@ -37,6 +37,34 @@ Fonts
     
 }
 
+.branding {
+    color: #D9D7CA
+}
+
+.branding:hover {
+    color: #3C8C93
+}
+
+.nav-link {
+    color: #D9D7CA;
+}
+
+.nav-link:hover {
+    color: #3C8C93;
+}
+
+.navSpacing {
+    margin-bottom: 11rem; 
+}
+
+.navSpacingPortfolio {
+    margin-bottom: 15rem; 
+}
+
+.navSpacingReviews {
+    margin-bottom: 15rem; 
+}
+
 .pageContent {
     height: 100%;
     width: 100%;
@@ -45,11 +73,14 @@ Fonts
 
 .content {
     width: 100%;
+    margin: 4rem 0;
 }
 
 .sectionTitle {
     color: #D9D7CA;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 0 2rem 0;
+    font-size: 3rem;
 }
 
 .mike {
@@ -79,13 +110,14 @@ Fonts
 .portfolioEntry {
     border: 5px solid #3C8C93;
     border-radius: 2rem;
-    max-height: 15rem;
-    min-height: 15rem;
-    max-width: 15rem;
-    min-width: 15rem;
+    max-height: 14rem;
+    min-height: 14rem;
+    max-width: 14rem;
+    min-width: 14rem;
     background-color: rgba(0, 0, 0, .4);
     position: relative;
     overflow: hidden;
+    margin: 0 1.5rem 2rem 1.5rem;
 }
 
 .portfolioEntry:hover {
@@ -99,32 +131,103 @@ Fonts
 }
 
 .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(60, 140, 147, .8);
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-  border-radius: 1rem;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(60, 140, 147, .8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 1rem;
 }
 
 .portfolioEntry:hover .overlay {
-  bottom: 0;
-  height: 100%;
+    bottom: 0;
+    height: 100%;
 }
 
 .text {
-  color: #D9D7CA;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 80%
+    color: #D9D7CA;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+
+.name {
+    font-family: 'Yellowtail', cursive;
+}
+
+.name a {
+    color: #D9D7CA;
+}
+
+.name:hover a {
+    color: #D9D7CA;
+}
+
+.info {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contactLogo {
+    max-height: 4rem;
+    min-height: 4rem;
+    max-width: 4rem;
+    min-width: 4rem;
+    margin-right: 1rem;
+}
+
+.contactContent {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contactPlatform {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.LanguageLogo {
+    max-height: 6rem;
+    min-height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
+}
+
+.slideDeck {
+    max-height: 15rem;
+    min-height: 15rem;
+    max-width: 90%;
+    min-width: 90%;
+    padding: 3.75rem 0;
+    background-color: rgba(60, 140, 147, .6);
+    border-radius: 5rem;
+    border: 5px solid #3B3535;
+}
+
+.slide {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.review {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: end;
 }
