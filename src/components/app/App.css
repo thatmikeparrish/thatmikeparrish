@@ -116,16 +116,43 @@ Fonts
     border-radius: 2rem;
     border: 5px solid #3B3535;
     padding: 1rem 0;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .exLogo {
     width: 6rem;
     max-height: 6rem;
-    margin: 0 2rem;
+    margin: 1rem 1rem;
 }
 
 .exContent {
     text-align: start;
+}
+
+.customColumn {
+    width: 50%;
+}
+
+.education {
+    background-color: rgba(217, 215, 202, .9);
+    border-radius: 2rem;
+    border: 5px solid #3B3535;
+    padding: 1rem 0;
+    padding-right: 1rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.edLogo {
+    width: 6rem;
+    max-height: 6rem;
+    margin: 0 1rem;
+}
+
+.edContent {
+    text-align: start;
+
 }
 
 .portfolioEntry {

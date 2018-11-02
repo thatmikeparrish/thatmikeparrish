@@ -19,7 +19,7 @@ export default class Bio extends Component {
                 </div>
                 <h4 className="sectionSubTitle">Experience</h4>
                 <div className="experience d-flex">
-                    <img className="exLogo" src={NSS} alt="Nashville Software School"/>
+                    <img className="exLogo" src={NSS} alt="Nashville Software School" />
                     <div className="exContent">
                         <h5>Junior Software Developer</h5>
                         <h6>Nashville Software School</h6>
@@ -38,11 +38,25 @@ export default class Bio extends Component {
                             <li>Created and modified database design/content using SQL and Dapper</li>
                         </ul>
                     </div>
-
                 </div>
                 <h4 className="sectionSubTitle">Education</h4>
-                <div className="education">
-
+                <div className="d-flex justify-content-center">
+                <div className="customColumn d-flex flex-column">
+                    <div className="education d-flex">
+                        <img className="edLogo" src={NSS} alt="Nashville Software School" />
+                        <div className="edContent">
+                            <h5>Nashville Software School</h5>
+                            <h6>Full-Stack Software Development</h6>
+                        </div>
+                    </div>
+                    <div className="education d-flex">
+                        <img className="edLogo" src={NSS} alt="Nashville Software School" />
+                        <div className="edContent">
+                            <h5>ITT Technical Institute-Nashville</h5>
+                            <h6>Software Development</h6>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         );
