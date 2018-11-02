@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import MainLogo from "../../img/branding/logoMikeParrishMix2.png"
 
+import NavBar from '../navbar/Nav'
 import Bio from "../bio/Bio"
 import Contact from "../contact/Contact"
 import Portfolio from "../portfolio/Portfolio"
@@ -15,12 +16,18 @@ export default class App extends Component {
             <React.Fragment>
                 <div className="background"></div>
                 <div className="container pageContent">
+                    <div id="top"></div>
+                    <NavBar />
                     <div className="d-flex justify-content-center">
                         <img src={MainLogo} alt="Mike Parrish"/>
                     </div>
+                    <div className="navSpacing" id="bio"></div>
                     <Bio />
+                    <div className="navSpacingPortfolio" id="portfolio"></div>
                     <Portfolio />
+                    <div className="navSpacingReviews" id="reviews"></div>
                     <Reviews />
+                    <div className="navSpacing" id="contact"></div>
                     <Contact />
                 </div>
             </React.Fragment>

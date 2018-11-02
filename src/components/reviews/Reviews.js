@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import ReviewsCarousel from './ReviewsCarousel'
 
-export default class Testimonials extends Component {
+export default class Reviews extends Component {
     render() {
 
         return (
@@ -9,7 +10,7 @@ export default class Testimonials extends Component {
                     <h2 className="sectionTitle">Reviews</h2>
                 </div>
                 <div className="d-flex flex-row flex-wrap justify-content-around">
-                    
+                    <ReviewsCarousel />
                 </div>
             </div>
         );

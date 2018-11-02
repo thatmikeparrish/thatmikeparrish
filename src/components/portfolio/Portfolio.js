@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import WOAH from "../../img/logos/woah.png"
 import AmyTaylorCountry from "../../img/logos/amytaylorcountry.png"
+import WOAH from "../../img/logos/woah.png"
+import MP from "../../img/branding/logoMPMix2.png"
 
 export default class Portfolio extends Component {
     render() {
@@ -15,7 +16,7 @@ export default class Portfolio extends Component {
                         <img className="image" src={AmyTaylorCountry} alt="Amy Taylor Country"/>
                         <div className="overlay">
                             <div className="text">
-                                <h4 className="name"><a href="#">Amy Taylor Country</a></h4>
+                                <h3 className="name"><a href="#">Amy Taylor Country</a></h3>
                                 <h6 className="info">Singer Songwriter based out of Nashville</h6>
                             </div>
                         </div>
@@ -24,8 +25,17 @@ export default class Portfolio extends Component {
                         <img className="image" src={WOAH} alt="World of Apathetic Heroes"/>
                         <div className="overlay">
                             <div className="text">
-                                <h4 className="name"><a href="https://worldofapatheticheroes.herokuapp.com/">World Of Apathetic Heroes</a></h4>
+                                <h3 className="name"><a href="https://worldofapatheticheroes.herokuapp.com/">World Of Apathetic Heroes</a></h3>
                                 <h6 className="info">My Front-end Capstone project at NSS</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolioEntry">
+                        <img className="image" src={MP} alt="Mike Parrish"/>
+                        <div className="overlay">
+                            <div className="text">
+                                <h3 className="name"><a href="#top">Mike Parrish</a></h3>
+                                <h6 className="info">My personal portfolio site</h6>
                             </div>
                         </div>
                     </div>
