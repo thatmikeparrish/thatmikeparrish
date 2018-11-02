@@ -107,7 +107,7 @@ Fonts
     color: #D9D7CA;
     width: 50%;
     font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: capitalize; */
     text-align: center;
 }
 
