@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import AmyTaylorCountry from "../../img/logos/amytaylorcountry.png"
-import WOAH from "../../img/logos/woah.png"
+import AmyTaylorCountry from "../../img/projectLogos/amytaylorcountry.png"
+import WOAH from "../../img/projectLogos/woah.png"
 import MP from "../../img/branding/logoMPMix2.png"
 
 export default class Portfolio extends Component {

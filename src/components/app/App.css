@@ -83,6 +83,14 @@ Fonts
     font-size: 3rem;
 }
 
+.sectionSubTitle {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 2rem 0 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .mike {
     border: 4.4px solid #3C8C93;
     border-radius: 25rem;
@@ -103,8 +111,21 @@ Fonts
     text-align: center;
 }
 
-.resumeLink{
-    color: #3C8C93;
+.experience {
+    background-color: rgba(217, 215, 202, .9);
+    border-radius: 2rem;
+    border: 5px solid #3B3535;
+    padding: 1rem 0;
+}
+
+.exLogo {
+    width: 6rem;
+    max-height: 6rem;
+    margin: 0 2rem;
+}
+
+.exContent {
+    text-align: start;
 }
 
 .portfolioEntry {
@@ -205,7 +226,7 @@ Fonts
 }
 
 .slideDeck {
-    max-height: 15rem;
+    max-height: 45rem;
     min-height: 15rem;
     max-width: 90%;
     min-width: 90%;
