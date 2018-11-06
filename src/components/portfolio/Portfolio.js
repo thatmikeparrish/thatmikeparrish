@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
                         <img className="image" src={AmyTaylorCountry} alt="Amy Taylor Country"/>
                         <div className="overlay">
                             <div className="text">
-                                <h3 className="name"><a href="#">Amy Taylor Country</a></h3>
+                                <h3 className="name"><a href="https://amytaylorcountry.herokuapp.com/">Amy Taylor Country</a></h3>
                                 <h6 className="info">Singer Songwriter based out of Nashville</h6>
                             </div>
                         </div>
