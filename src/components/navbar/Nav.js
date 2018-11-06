@@ -22,11 +22,11 @@ export default class NavBar extends Component {
                                 <h4>Portfolio</h4>
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#reviews" className="nav-link" >
                                 <h4>Reviews</h4>
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" >
                                 <h4>Contact</h4>

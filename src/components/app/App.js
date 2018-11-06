@@ -14,10 +14,9 @@ export default class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="background"></div>
+                <div id="top "className="background"></div>
+                <NavBar />
                 <div className="container pageContent">
-                    <div id="top"></div>
-                    <NavBar />
                     <div className="d-flex justify-content-center">
                         <img src={MainLogo} alt="Mike Parrish"/>
                     </div>
@@ -25,8 +24,8 @@ export default class App extends Component {
                     <Bio />
                     <div className="navSpacingPortfolio" id="portfolio"></div>
                     <Portfolio />
-                    <div className="navSpacingReviews" id="reviews"></div>
-                    <Reviews />
+                    {/* <div className="navSpacingReviews" id="reviews"></div>
+                    <Reviews /> */}
                     <div className="navSpacing" id="contact"></div>
                     <Contact />
                 </div>

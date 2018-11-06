@@ -13,7 +13,7 @@ export default class Contact extends Component {
                         <h2 className="sectionTitle">Contact</h2>
                     </div>
                     <h2 className="contactContent">Feel free to contact or follow me at any of the platforms below!</h2>
-                    <div className="d-flex flex-row flex-wrap justify-content-around">
+                    <div className="contactLink d-flex flex-row flex-wrap justify-content-around">
                         <a href="https://www.linkedin.com/in/thatmikeparrish/">
                             <h3 className="contactPlatform"><img className="contactLogo" src={LinkedIn} alt="linkedIn"/>
                             LinkedIn</h3>

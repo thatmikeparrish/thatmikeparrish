@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import AmyTaylorCountry from "../../img/logos/amytaylorcountry.png"
-import WOAH from "../../img/logos/woah.png"
-import MP from "../../img/branding/logoMPMix2.png"
+import AmyTaylorCountry from "../../img/projectLogos/amytaylorcountry.png"
+import WOAH from "../../img/projectLogos/woah.png"
 
 export default class Portfolio extends Component {
     render() {
@@ -27,15 +26,6 @@ export default class Portfolio extends Component {
                             <div className="text">
                                 <h3 className="name"><a href="https://worldofapatheticheroes.herokuapp.com/">World Of Apathetic Heroes</a></h3>
                                 <h6 className="info">My Front-end Capstone project at NSS</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="portfolioEntry">
-                        <img className="image" src={MP} alt="Mike Parrish"/>
-                        <div className="overlay">
-                            <div className="text">
-                                <h3 className="name"><a href="#top">Mike Parrish</a></h3>
-                                <h6 className="info">My personal portfolio site</h6>
                             </div>
                         </div>
                     </div>
