@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import MainLogo from "../../img/branding/logoMikeParrishMix2.png"
 
-import NavBar from '../Nav/Nav'
-import Bio from "../Bio/Bio"
-import Contact from "../Contact/Contact"
-import Portfolio from "../Portfolio/Portfolio"
-import Reviews from "../Reviews/Reviews"
+import NavBar from '../nav/Nav'
+import Bio from "../bio/Bio"
+import Contact from "../contact/Contact"
+import Portfolio from "../portfolio/Portfolio"
+import Reviews from "../reviews/Reviews"
 
 export default class App extends Component {
     render() {
