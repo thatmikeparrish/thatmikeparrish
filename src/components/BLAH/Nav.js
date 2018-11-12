@@ -27,6 +27,7 @@ export default class NavBar extends Component {
                                 <h4>Reviews</h4>
                             </a>
                         </li> */}
+                        {/* test */}
                     </ul>
             </nav>
         );
