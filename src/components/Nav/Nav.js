@@ -27,11 +27,6 @@ export default class NavBar extends Component {
                                 <h4>Reviews</h4>
                             </a>
                         </li> */}
-                        <li className="nav-item">
-                            <a href="#contact" className="nav-link" >
-                                <h4>Contact</h4>
-                            </a>
-                        </li>
                     </ul>
             </nav>
         );

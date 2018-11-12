@@ -27,8 +27,8 @@ export default class App extends Component {
                     {/* <div className="navSpacingReviews" id="reviews"></div>
                     <Reviews /> */}
                     <div className="navSpacing" id="contact"></div>
-                    <Contact />
                 </div>
+                <Contact />
             </React.Fragment>
         );
     }
