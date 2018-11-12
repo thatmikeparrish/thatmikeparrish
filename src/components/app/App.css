@@ -38,9 +38,8 @@ Fonts
 
 .navbar {
     box-shadow: 0 0 15px #000000;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
     width: 100%;
+    max-height: 5rem;
 }
 
 .branding {
@@ -74,7 +73,7 @@ Fonts
 .pageContent {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .32);
+    background-color: rgba(0, 0, 0, .4);
     box-shadow: 0 0 15px #000000;
 }
 
@@ -94,7 +93,7 @@ Fonts
 .sectionSubTitle {
     color: #D9D7CA;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 2rem 0 2rem 0;
+    margin: 7rem 0 2rem 0;
     font-size: 2rem;
     text-align: center;
     text-shadow: 2px 2px 5px #000000;
@@ -151,6 +150,7 @@ Fonts
     padding-right: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 0 15px #000000;
+    width: 100%;
 }
 
 .exLogo {
@@ -173,7 +173,7 @@ Fonts
     border: 5px solid #3B3535;
     padding: 1rem 0;
     padding-right: 1rem;
-    max-width: 100%;
+    max-width: 45%;
     margin-bottom: 1rem;
     box-shadow: 0 0 15px #000000;
 }
@@ -262,32 +262,6 @@ Fonts
     text-shadow: 2px 2px 5px #000000;
 }
 
-.contactLogo {
-    max-height: 4rem;
-    min-height: 4rem;
-    max-width: 4rem;
-    min-width: 4rem;
-    margin-right: 1rem;
-}
-
-.contactLink:hover a {
-    color: #D9D7CA;
-}
-
-.contactContent {
-    color: #D9D7CA;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    margin-bottom: 3rem;
-    text-shadow: 2px 2px 5px #000000;
-}
-
-.contactPlatform {
-    color: #D9D7CA;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 2px 2px 5px #000000;
-}
-
 .LanguageLogo {
     max-height: 6rem;
     min-height: 6rem;
@@ -318,7 +292,33 @@ Fonts
 }
 
 .footer {
+    background-color: rgba(0, 0, 0, .7);
     color: #D9D7CA;
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: end;
+    text-align: start;
+    padding: 2rem 0 2rem 0;
+}
+
+.footerLogo {
+    max-height: 6rem;
+    min-height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.contactLogo {
+    max-height: 2rem;
+    min-height: 2rem;
+    max-width: 2rem;
+    min-width: 2rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.line {
+    padding: 1rem 0 0 0;
+    border-top: 2px solid #3C8C93;
 }
