@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Bio.css';
 
 import ExNSS from '../../img/experience/nss-logo.png'
 import PF from '../../img/experience/premierfirestop.jpg'

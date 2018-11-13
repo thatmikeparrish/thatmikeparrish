@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Portfolio.css';
 
 import AmyTaylorCountry from "../../img/projectLogos/amytaylorcountry.png"
 import WOAH from "../../img/projectLogos/woah.png"

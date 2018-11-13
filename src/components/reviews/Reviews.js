@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Reviews.css';
 import ReviewsCarousel from './ReviewsCarousel'
 
 export default class Reviews extends Component {

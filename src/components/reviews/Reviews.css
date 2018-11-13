@@ -1,0 +1,21 @@
+.slideDeck {
+    max-height: 45rem;
+    min-height: 15rem;
+    max-width: 90%;
+    min-width: 90%;
+    padding: 3.75rem 0;
+    background-color: rgba(60, 140, 147, .6);
+    border-radius: 5rem;
+    border: 5px solid #3B3535;
+}
+
+.slide {
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.review {
+    margin-bottom: 1rem;
+}
