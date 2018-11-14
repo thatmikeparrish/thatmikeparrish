@@ -47,9 +47,9 @@
     border: 5px solid #3B3535;
     padding: 1rem 0;
     padding-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 1rem;
     box-shadow: 0 0 15px #000000;
-    width: 100%;
+    width: 35%;
 }
 
 .exLogo {
@@ -60,10 +60,6 @@
 
 .exContent {
     text-align: start;
-}
-
-.customColumn {
-    width: 100%;
 }
 
 .education {

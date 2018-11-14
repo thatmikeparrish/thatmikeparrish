@@ -18,7 +18,7 @@ export default class Bio extends Component {
                 <div className="d-flex justify-content-center">
                     <h2 className="sectionTitle">Bio</h2>
                 </div>
-                <div className="d-flex justify-content-around">
+                <div className="container d-flex justify-content-around">
                     <div className="mike" alt="Me or things I like!"></div>
                     <div className="myBio d-flex flex-column justify-content-around">
                         <p>Howdy, my name is Mike Parrish and I am a software developer with an affinity for thinking outside the box. I'm currently attending Nashville Software School to hone my development skills.</p>
@@ -27,8 +27,8 @@ export default class Bio extends Component {
                 </div>
                 <h6 className="devQuote">"Things aren't always #000000 and #ffffff, so let me help you decode the #808080!"</h6>
                 <h4 className="sectionSubTitle">Experience</h4>
-                <div className="customColumn d-flex flex-column">
-                    <div className="experience d-flex">
+                <div className="d-flex flex-wrap-reverse justify-content-center">
+                    <div className="order-3 experience d-flex">
                         <img className="exLogo" src={ExNSS} alt="Nashville Software School" />
                         <div className="exContent">
                             <h5>Junior Software Developer</h5>
@@ -49,7 +49,7 @@ export default class Bio extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="experience d-flex">
+                    <div className="order-1 experience d-flex">
                         <img className="exLogo" src={PF} alt="Premier Firestop" />
                         <div className="exContent">
                             <h5>IT Systems Coordinator</h5>
@@ -70,7 +70,7 @@ export default class Bio extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="experience d-flex">
+                    <div className="order-2 experience d-flex">
                         <img className="exLogo" src={BR} alt="Premier Firestop" />
                         <div className="exContent">
                             <h5>Estimator II</h5>
@@ -104,7 +104,7 @@ export default class Bio extends Component {
                 </div>
                 <h4 className="sectionSubTitle">Education</h4>
                 <div className="d-flex justify-content-center">
-                    <div className="customColumn d-flex justify-content-around">
+                    <div className="container d-flex justify-content-around">
                         <div className="education d-flex">
                             <img className="edLogo" src={EdNSS} alt="Nashville Software School" />
                             <div className="edContent">
