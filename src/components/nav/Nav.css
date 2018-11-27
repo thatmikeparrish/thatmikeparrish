@@ -1,0 +1,33 @@
+.navbar {
+    box-shadow: 0 0 15px #000000;
+    width: 100%;
+    max-height: 5rem;
+}
+
+.branding {
+    color: #D9D7CA
+}
+
+.branding:hover {
+    color: #3C8C93
+}
+
+.nav-link {
+    color: #D9D7CA;
+}
+
+.nav-link:hover {
+    color: #3C8C93;
+}
+
+.navSpacing {
+    margin-bottom: 11rem; 
+}
+
+.navSpacingPortfolio {
+    margin-bottom: 15rem; 
+}
+
+.navSpacingReviews {
+    margin-bottom: 15rem; 
+}

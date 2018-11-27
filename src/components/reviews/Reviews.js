@@ -7,9 +7,7 @@ export default class Reviews extends Component {
 
         return (
             <div className="content">
-                <div className="d-flex justify-content-center">
-                    <h2 className="sectionTitle">Reviews</h2>
-                </div>
+                <h2 className="sectionTitle">Reviews</h2>
                 <div className="d-flex flex-row flex-wrap justify-content-around">
                     <ReviewsCarousel />
                 </div>

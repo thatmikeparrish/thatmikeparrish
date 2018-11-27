@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Nav.css';
 
 import NavLogo from '../../img/branding/logoMPMix2.png'
 
@@ -17,6 +18,11 @@ export default class NavBar extends Component {
                                 <h4>Bio</h4>
                             </a>
                         </li>
+                        {/* <li className="nav-item">
+                            <a href="#resume" className="nav-link" >
+                                <h4>Resume</h4>
+                            </a>
+                        </li> */}
                         <li className="nav-item">
                             <a href="#portfolio" className="nav-link" >
                                 <h4>Portfolio</h4>

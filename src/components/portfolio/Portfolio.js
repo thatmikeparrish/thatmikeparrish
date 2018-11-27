@@ -7,10 +7,8 @@ import WOAH from "../../img/projectLogos/woah.png"
 export default class Portfolio extends Component {
     render() {
         return (
-            <div className="content">
-                <div className="d-flex justify-content-center">
-                    <h2 className="sectionTitle">Portfolio & Projects</h2>
-                </div>
+            <div className="content portfolio">
+                <h2 className="sectionTitle">Portfolio & Projects</h2>
                 <div className="d-flex flex-row flex-wrap justify-content-center">
                     <div className="portfolioEntry">
                         <img className="image" src={WOAH} alt="World of Apathetic Heroes" />
