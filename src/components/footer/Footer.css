@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgba(0, 0, 0, .7);
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: start;
+    padding: 2rem 0 2rem 0;
+}
+
+.footerLogo {
+    max-height: 6rem;
+    min-height: 6rem;
+    max-width: 6rem;
+    min-width: 6rem;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.contactLogo {
+    max-height: 2rem;
+    min-height: 2rem;
+    max-width: 2rem;
+    min-width: 2rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.line {
+    padding: 1.5rem 0 0 0;
+    border-top: 2px solid #3C8C93;
+}

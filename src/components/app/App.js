@@ -6,9 +6,10 @@ import MainLogo from "../../img/branding/logoMikeParrishMix2.png"
 
 import NavBar from '../nav/Nav'
 import Bio from "../bio/Bio"
-import Contact from "../contact/Contact"
+import Resume from "../resume/Resume"
+import Footer from "../footer/Footer"
 import Portfolio from "../portfolio/Portfolio"
-import Reviews from "../reviews/Reviews"
+/* import Reviews from "../reviews/Reviews" */
 
 export default class App extends Component {
     render() {
@@ -16,19 +17,21 @@ export default class App extends Component {
             <React.Fragment>
                 <div id="top "className="background"></div>
                 <NavBar />
-                <div className="container pageContent">
+                <div className="pageContent">
                     <div className="d-flex justify-content-center">
-                        <img src={MainLogo} alt="Mike Parrish"/>
+                        <img className="header" src={MainLogo} alt="Mike Parrish"/>
                     </div>
-                    <div className="navSpacing" id="bio"></div>
+                    <div id="bio"></div>
                     <Bio />
-                    <div className="navSpacingPortfolio" id="portfolio"></div>
+                    {/* <div id="resume"></div>
+                    <Resume /> */}
+                    <div id="portfolio"></div>
                     <Portfolio />
-                    {/* <div className="navSpacingReviews" id="reviews"></div>
+                    {/* <div id="reviews"></div>
                     <Reviews /> */}
-                    <div className="navSpacing" id="contact"></div>
                 </div>
-                <Contact />
+                <div id="contact"></div>
+                <Footer />
             </React.Fragment>
         );
     }

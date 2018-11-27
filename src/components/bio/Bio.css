@@ -1,0 +1,52 @@
+.bio {
+    background-color: rgba(0, 0, 0, .7);
+    color: #D9D7CA;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: start;
+    padding: 3rem 0 3rem 0;
+    margin: 5rem 0 5rem 0;
+}
+
+.mike {
+    border: 4.5px solid #3C8C93;
+    border-top-left-radius: 12rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 12rem;
+    background-image: url(../../img/bio/mike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 0 0 15px #000000;
+}
+
+.mike:hover {
+    /* background-image: url(../../img/bio/diablo.jpg);
+    background-image: url(../../img/bio/horde.png);
+    background-image: url(../../img/bio/mtg.png);
+    background-image: url(../../img/bio/wow.jpg);
+    background-image: url(../../img/bio/gl.jpg); 
+    background-image: url(../../img/bio/flash.jpg); */
+    background-image: url(../../img/bio/Mike_Fun.jpg);
+}
+
+.myBio {
+    color: #D9D7CA;
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* text-transform: capitalize; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.devQuote {
+    color: #D9D7CA;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* text-transform: capitalize; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
