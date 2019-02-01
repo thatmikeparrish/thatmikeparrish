@@ -6,7 +6,6 @@ import MainLogo from "../../img/branding/logoMikeParrishMix2.png"
 
 import NavBar from '../nav/Nav'
 import Bio from "../bio/Bio"
-import Resume from "../resume/Resume"
 import Footer from "../footer/Footer"
 import Portfolio from "../portfolio/Portfolio"
 /* import Reviews from "../reviews/Reviews" */
