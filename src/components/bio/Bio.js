@@ -13,7 +13,7 @@ export default class Bio extends Component {
                 <div className="container d-flex justify-content-around">
                     <div className="myBio d-flex flex-column justify-content-around">
                         <p>Hi, I'm Mike Parrish!</p>
-                        <p>I’m a huge nerd with a passion for development! I enjoy reading comics and playing games just as much as I enjoy backpacking and working on my rail buggy. I'm currently attending Nashville Software School to hone my development skills and set to graduate in January 2019. Development gives me a technical way to bring my creativity to light. I love working with ReactJS, but I’m also proficient in HTML5, CSS3, JavaScript, ReactJS, C#, SQL, Linq, and Dapper while at NSS. I’m fortunate to be making a living in a career I truly enjoy.</p>
+                        <p>I’m a huge nerd with a passion for development! I enjoy reading comics and playing games just as much as I enjoy backpacking and working on my rail buggy. Development gives me a technical way to bring my creativity to light. I love working with ReactJS, but I’m also proficient in HTML5, CSS3, JavaScript, ReactJS, C#, SQL, Linq, and Dapper while at NSS. I’m fortunate to be making a living in a career I truly enjoy.</p>
                     </div>
                     <div className="mike" alt="It's me!"></div>
                 </div>
